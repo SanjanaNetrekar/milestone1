@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Gradient background */
+.nav-gradient {
+  background: linear-gradient(90deg, #f8b195, #f67280, #c06c84);
+}
+
+/* Brand style */
+.brand-style {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8rem;
+  color: #fff !important;
+}
+
+/* Nav pills */
+.nav-pill {
+  padding: 8px 16px;
+  border-radius: 25px;
+  color: #fff !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-pill:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+}
+
+.active-pill {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Cart badge */
+.nav-pill .badge {
+  font-size: 0.7rem;
+  padding: 5px 7px;
+}

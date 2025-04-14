@@ -55,7 +55,6 @@ const NavigationBar = () => {
           <Nav className="ms-auto d-flex align-items-center gap-4">
             <Nav.Link as={Link} to="/" className="nav-link-custom">Home</Nav.Link>
             <Nav.Link as={Link} to="/menu" className="nav-link-custom">Menu</Nav.Link>
-            <Nav.Link as={Link} to="/menucard" className="nav-link-custom">Menu Cards</Nav.Link>
             <Nav.Link as={Link} to="/contact" className="nav-link-custom">Contact</Nav.Link>
             <Nav.Link as={Link} to="/location" className="nav-link-custom">Location</Nav.Link>
             <Nav.Link as={Link} to="/signin" className="nav-link-custom">Sign In</Nav.Link>
